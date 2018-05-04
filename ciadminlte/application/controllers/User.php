@@ -1,10 +1,17 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Blank extends CI_Controller {
+class User extends CI_Controller {
 
-	public function index()
+	public function from()
 	{
-		$this->load->view('blank');
+		$this->load->view('form_user');
+	}
+	public function add()
+	{
+		echo $this->input->post("username")."<br/>";
+		echo $this->input->post("password")."<br/>";
+		echo $this->input->post("fullname")."<br/>";
+		echo $this->input->post("level")."<br/>";
 	}
 }
