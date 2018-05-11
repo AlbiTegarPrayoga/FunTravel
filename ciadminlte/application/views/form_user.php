@@ -12,8 +12,6 @@
         <input type="password" name="password" /><br/>
         Fullname<br/>
         <input type="text" name="fullname" placeholder="fullname" /><br/>
-        
-        
         Level<br/>
         <select name="level">
             <option value = "admin" >Admin</option>
